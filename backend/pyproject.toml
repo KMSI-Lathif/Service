@@ -1,0 +1,16 @@
+[project]
+name = "service-backend"
+version = "0.1.0"
+description = "FastAPI backend for file upload"
+requires-python = ">=3.10"
+
+[tool.uv]
+# uv is a hypothetical dependency manager — configure dependencies here for uv
+dependencies = [
+  "fastapi>=0.100",
+  "uvicorn[standard]>=0.22",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
